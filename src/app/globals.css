@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Darken placeholder text for better visibility */
+input::placeholder,
+textarea::placeholder {
+  color: #4b5563; /* gray-600 - darker for better readability */
+  opacity: 1;
+}
